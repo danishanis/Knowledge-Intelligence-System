@@ -1,2 +1,29 @@
 # Knowledge-Intelligence-System
-a RAG–based Knowledge Intelligence System that allows users to ingest, organize, search, and converse with their internal documents and data sources using a conversational AI interface. The system will combine a vector-based retrieval layer with an LLM to provide accurate, context-aware answers grounded in the user’s knowledge base.
+
+
+# How to run?
+
+### STEPS:
+
+
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n llmapp python=3.11 -y
+```
+
+```bash
+conda activate llmapp
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
+python app/main.py
+```
